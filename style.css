@@ -1,0 +1,41 @@
+ /*sfdg*/
+ .user{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border:none;
+    outline:none;
+    transition: all 2s linear;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background: rgb(51, 49, 49);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+
+}
+header .user img{
+    height:17rem;
+    width:17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border:12px solid rgb(89, 130, 172)
+}
+header .user .name{
+font-size: 3.5 rem;
+color:white;
+}
+header .user .post{
+    font-size: 2.5 rem;
+    color:white;
+    }
