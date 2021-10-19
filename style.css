@@ -31,6 +31,22 @@ html::-webkit-scrollbar-thumb{
     overflow-x: hidden;
     padding-left: 35rem;
 }
+section{
+     min-height: 100vh;
+     padding:1rem;
+}
+.btn{
+    padding:.7rem 3rem;
+    background: #333;
+    color:#fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size:2rem;
+    border-radius: 5rem;
+}
+.btn:hover{
+    background: rgb(197, 77, 77);
+}
 
 header{
     position:fixed;
@@ -83,7 +99,7 @@ header .navbar ul li a{
 header .navbar ul li a:hover{
     background:black;
 }
-.fas fa-bars{
+#menu{
     position: fixed;
     top:2rem; right:2rem;
     background:#333;
@@ -94,5 +110,142 @@ header .navbar ul li a:hover{
     z-index: 1000;
     display: none;
 }
+.Home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15 rem;
+
+}
+.Home h3{
+    font-size: 40px;
+    color: #fff;
+
+}
+.Home h1{
+    font-size: 50px;
+    color: #fff;
+
+}
+.Home p{
+    font-size: 2rem;
+    color: #eee;
+    padding:1rem 0;
+
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries  */
+
+@media (max-width:1200px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .home{
+        padding:1rem 4rem;
+    }
+
+}
+
+@media (max-width:991px){
+
+   header{
+       left:-120%;
+   }
+
+   #menu{
+       display: block;
+   }
+
+   header.toggle{
+    left:0%;
+   }
+
+   body{
+       padding:0;
+   }
+
+}
+
+@media (max-width:768px){
+
+    html{
+        font-size: 50%;
+    }
+ 
+ }
+
+@media (max-width:400px){
+
+    header{
+        width: 100vw;
+    }
+
+    .heading{
+        margin:0 3rem;
+    }
+
+    .about .row .counter .box{
+        width: 100%;
+    }
+ 
+    .education .box-container .box{
+        width:100%;
+    }
+
+    .portfolio .box-container .box{
+        width:100%;
+    }
+
+    .contact .row form{
+        margin:3rem 0;
+    }
+
+ }
