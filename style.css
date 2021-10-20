@@ -47,6 +47,14 @@ section{
 .btn:hover{
     background: rgb(197, 77, 77);
 }
+.heading{
+    text-align: center;
+    margin:0 6rem;
+    font-size: 4rem;
+    padding:1rem;
+    border-bottom: .1rem solid #fff4;
+    color:#fff;
+}
 
 header{
     position:fixed;
@@ -134,8 +142,55 @@ header .navbar ul li a:hover{
 
 }
 
+.About .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+.About .row .info{
+    flex:1 1 48rem;
+    padding:2rem 1rem;
+    padding-left: 6rem;
+}
 
+.About .row .info h3{
+    font-size: 2rem;
+    color:yellow;
+    padding:1rem 0;
+    font-weight: normal;
+}
 
+.About .row .info h3 span{
+    color:#eee;
+    padding:0 .5rem;
+}
+
+.About .row .counter{
+    flex:1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.About .row .counter .box{
+    width:20rem;
+    background:#222;
+    text-align: center;
+    padding: 2rem;
+    margin:2rem;
+}
+
+.About .row .counter .box span{
+    font-size: 4rem;
+    color:yellow;
+}
+
+.About .row .counter .box h3{
+    font-size: 2rem;
+    color:#fff;
+}
 
 
 
